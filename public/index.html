@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dink - The Better Dating App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <ul>
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/matches">Candid Dates</a></li>
+        <li><a href="/about">The Essentials</a></li>
+        <li><a href="/wild">In The Wild</a></li>
+        <li><a href="/speed">Switchies! Speed Dates</a></li>
+        <li><a href="/chat">Chat Screen</a></li>
+        <li><a href="/inchat"></a>Individual Chat Screen</li>
+    
+      </ul>
+    </div>
+  </header>
+  <div class="banner">
+    <h1>Welcome to Dink</h1>
+    <p>The Better Dating App</p>
+    <button onclick="navigateToProfile()">Get Started</button>
+  </div>
+  <div class="App">
+    <div id="root"></div>
+  </div>
+  <script src="App.js"></script>
+  <script>
+    function navigateToProfile() {
+      window.location.href = './profile';
+    }
+  </script>
+</body>
+</html>

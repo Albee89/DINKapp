@@ -1,0 +1,110 @@
+/* styles.css */
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    background-image: "./Bacall-Bogey.png";
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    transition: color 0.3s;
+  }
+  
+  .menu ul li a:hover {
+    color:white;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 5em 1em;
+    background: linear-gradient(to right, grey, black);
+    color: white;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .banner h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  
+  .banner p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .banner button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color grey, color black;
+  }
+  
+  .banner button:hover {
+    background-color: black;
+    color: grey;
+  }
+  
+  .App {
+    margin: 2em 0;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  
+  /* Adding some basic styling to the app container */
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  
+  .swipeItemRootContainer{
+
+    width: 500px;
+    height: 60px;
+
+    .item{
+        background-color: white;
+        width: 111px;
+        height: 111px;
+        border-radius: 16px; 
+    }
+  }}
